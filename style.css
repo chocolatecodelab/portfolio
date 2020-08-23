@@ -59,9 +59,6 @@ body {
     border-top: 3px solid #999;
 }
 
-section {
-    min-width: 600px;
-}
 
 .pKiri, .pKanan {
     opacity: 0;
