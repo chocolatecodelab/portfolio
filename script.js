@@ -14,10 +14,10 @@ $('.page-scroll').on('click', function(event) {
 // parallax
 // about
 
-$(window).on('load', function() {
-    $('.pKiri').addClass('pMuncul');
-    $('.pKanan').addClass('pMuncul');
-});
+// $(window).on('load', function() {
+//     $('.pKiri').addClass('pMuncul');
+//     $('.pKanan').addClass('pMuncul');
+// });
 
 
 $(window).scroll(function() {
@@ -48,6 +48,10 @@ $(window).scroll(function() {
 
         
     }
+    if ( wScroll > $('.pKiri').offset().top - 200) {
+    $('.pKiri').addClass('pMuncul');
+    $('.pKanan').addClass('pMuncul');
+    };
 
 
 });
